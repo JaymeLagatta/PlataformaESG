@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     NavHost(
                         navController = navController,
-                        startDestination = Screen.Login, // Tela inicial configurada para o login
+                        startDestination = Screen.Cadastro, // Tela inicial configurada para o cadastro
                         modifier = Modifier.padding(innerPadding)
                     ) {
                         // Definindo as telas e suas respectivas rotas
